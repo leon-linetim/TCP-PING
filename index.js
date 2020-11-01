@@ -1,10 +1,11 @@
 const {Client, MessageEmbed} = require('discord.js'),
 tcpp = require('tcp-ping');
 client = new Client();
-client.login(config.token)
 
 const config = require("./config.json");
 client.config = config;
+
+client.login(config.token);
 
 client.on('ready', () => {
     console.log('ready')
