@@ -7,7 +7,7 @@ Verifiez que nodejs est bien installé sur votre machine
 placez vous dans le dossier d'installation
 
 ```bash
-node install
+npm install
 ```
 Puis remplissez correctement le fichier config.json
 
